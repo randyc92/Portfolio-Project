@@ -19,7 +19,7 @@ body {
     top: 0;
     position: fixed;
     z-index: 1000;
-    background-color: #C7c4bf;
+    background-color: #edf7f9;
 }
 
 .nav-bar {
@@ -77,6 +77,7 @@ body {
 
 #projects {
     margin-top: 5rem;
+    background-color: #3944bc;
 }
 
 #projects h2 {
