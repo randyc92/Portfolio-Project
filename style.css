@@ -35,12 +35,19 @@ body {
 }
 
 .about-text {
-    margin-left: 12rem;
-    width: 30%;
+    margin-left: 1rem;
+    width: 50%;
     float: left;
 }
-.about-text p {
+
+.about-text h2 {
     text-align: center;
+    font-size: 2.5rem;
+}
+
+.about-text p {
+    text-align: left;
+    font-size: 1.5rem;
 }
 
 #about-me figure {
