@@ -6,6 +6,7 @@ body {
     margin: 0;
     position: relative;
     top: 6.5rem;
+    background-color: #99ccff;
 }
 
 
@@ -34,7 +35,7 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
-    margin-bottom: 0;
+    margin-bottom: 0rem;
 }
 
 .about-text {
@@ -46,8 +47,6 @@ body {
 .about-text h2 {
     text-align: center;
     font-size: 2.5rem;
-    background-color: #373737;
-    opacity: 100%;
 }
 
 .about-text p {
@@ -75,14 +74,12 @@ body {
     border-radius: 50%;
 }
 
-#projects {
-    background-color: #3944bc;
-}
 
 #projects h2 {
     text-align: center;
     margin-bottom: 100px;
     font-size: 3rem;
+    background-color: #edf7f9;
 }
 
 .projects-container {
@@ -94,6 +91,14 @@ body {
 .projects-container figure {
     display: flex;
     align-items: center;
+}
+
+.project-container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+    background-color: #c5c6d0;
+    border: 1px solid black;
 }
 
 .projects-container img {
@@ -124,18 +129,19 @@ body {
     text-align: center;
     margin-bottom: 100px;
     font-size: 3rem;
+    background-color: #edf7f9;
 }
 
 .skills-container {
-    width: 80%;
+    width: 100%;
     text-align: center;
     display: flex;
-    margin-left: 6.5rem;
     justify-content: space-around;
 }
 
+
 .fa-brands {
-    font-size: 3.5rem;
+    font-size: 6.5rem;
 }
 
 .contact-container {
@@ -148,6 +154,11 @@ body {
 
 #contact-me h2 {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 3rem;
     font-size: 3rem;
+    background-color: #edf7f9;
+}
+
+#contact-me {
+    margin-bottom: 10rem;
 }
