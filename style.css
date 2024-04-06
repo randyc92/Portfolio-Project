@@ -6,7 +6,14 @@ body {
     margin: 0;
     position: relative;
     top: 6.5rem;
+}
+
+.body-day {
     background-color: #99ccff;
+}
+
+.body-night {
+
 }
 
 .header-container {
@@ -28,21 +35,27 @@ body {
     align-items: center;
 }
 
+.about-day {
+    background-image: url(./images/image0.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-
+.about-night {
+    background-image: url(./images/nightpic.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 #about-me {
     height: 27rem;
-    background-image: url(./images/image0.webp);
-    background-repeat: no-repeat;
     width: 100%;
-    background-size: cover;
     margin-bottom: 0rem;
 }
 
 .about-text {
     margin-left: 1rem;
-    width: 50%;
+    width: 60%;
     float: left;
 }
 
@@ -58,7 +71,7 @@ body {
 
 #about-me figure {
     float: right;
-    margin-right: 10rem;
+    margin-right: 3rem;
 }
 
 #about-me figure figcaption {
@@ -75,35 +88,13 @@ body {
     border-radius: 50%;
 }
 
-@media only screen and (max-width: 1020px) {
-    #about-me {
-        height: 20rem;
-        margin-bottom: none;
-    }
-
-    .about-text {
-        width: 100%;
-        float: unset;
-    }
-
-    #about-me p {
-        font-size: 1.3rem;
-        font-weight: bold;
-    }
-
-    #about-me figure {
-      visibility: hidden;
-    }
-
-    #projects {
-        margin-top: none;
-    }
-  }
-
 #projects h2 {
     text-align: center;
     margin-bottom: 100px;
     font-size: 3rem;
+}
+
+.headers-days {
     background-color: #edf7f9;
 }
 
@@ -154,7 +145,6 @@ body {
     text-align: center;
     margin-bottom: 100px;
     font-size: 3rem;
-    background-color: #edf7f9;
 }
 
 .skills-container {
@@ -181,9 +171,33 @@ body {
     text-align: center;
     margin-bottom: 3rem;
     font-size: 3rem;
-    background-color: #edf7f9;
 }
 
 #contact-me {
     margin-bottom: 10rem;
 }
+
+@media only screen and (max-width: 1020px) {
+    #about-me {
+        height: 20rem;
+        margin-bottom: none;
+    }
+
+    .about-text {
+        width: 100%;
+        float: unset;
+    }
+
+    #about-me p {
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    #about-me figure {
+      visibility: hidden;
+    }
+
+    #projects {
+        margin-top: none;
+    }
+  }
