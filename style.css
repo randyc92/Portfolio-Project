@@ -9,7 +9,6 @@ body {
     background-color: #99ccff;
 }
 
-
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -29,8 +28,11 @@ body {
     align-items: center;
 }
 
+
+
+
 #about-me {
-    height: 25rem;
+    height: 27rem;
     background-image: url(./images/image0.webp);
     background-repeat: no-repeat;
     width: 100%;
@@ -57,7 +59,6 @@ body {
 #about-me figure {
     float: right;
     margin-right: 10rem;
-    float: right;
 }
 
 #about-me figure figcaption {
@@ -74,6 +75,30 @@ body {
     border-radius: 50%;
 }
 
+@media only screen and (max-width: 1020px) {
+    #about-me {
+        height: 20rem;
+        margin-bottom: none;
+    }
+
+    .about-text {
+        width: 100%;
+        float: unset;
+    }
+
+    #about-me p {
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    #about-me figure {
+      visibility: hidden;
+    }
+
+    #projects {
+        margin-top: none;
+    }
+  }
 
 #projects h2 {
     text-align: center;
