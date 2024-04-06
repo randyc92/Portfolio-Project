@@ -28,4 +28,8 @@ function nightOrDay(){
         about.classList.remove('about-night');
         about.classList.add('about-day');
     }
+
+
 }
+
+picture.addEventListener('click', nightOrDay);
