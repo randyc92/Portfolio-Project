@@ -33,6 +33,7 @@ body {
 .nav-bar {
     display: flex;
     width: 50%;
+    color: black;
     justify-content: space-around;
     align-items: center;
 }
@@ -102,7 +103,8 @@ body {
 }
 
 .headers-nights {
-    background-color: #fd5e53;
+    background-color: #edf7f9;
+    color: #232323;
 }
 
 .projects-container {
