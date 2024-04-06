@@ -10,10 +10,12 @@ body {
 
 .body-day {
     background-color: #99ccff;
+    color: black;
 }
 
 .body-night {
-
+    background-color: #041a40;
+    color: white;
 }
 
 .header-container {
@@ -59,7 +61,7 @@ body {
     float: left;
 }
 
-.about-text h2 {
+.about-text h3 {
     text-align: center;
     font-size: 2.5rem;
 }
@@ -96,6 +98,11 @@ body {
 
 .headers-days {
     background-color: #edf7f9;
+    color: black;
+}
+
+.headers-nights {
+    background-color: #fd5e53;
 }
 
 .projects-container {
